@@ -1,0 +1,16 @@
+node_modules
+bower_components
+
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+
+.idea_modules/
+
+gulp.1
+build
+.tmp
+
+atlassian-ide-plugin.xml
