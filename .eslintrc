@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": "off",
+    "linebreak-style": "off",
+    "quotes": "off",
+    "semi": "off",
+    "no-undef": "off",
+    "no-empty": "off",
+    "no-self-assign": "off",
+    "no-unused-vars": "off"
+  }
+}
