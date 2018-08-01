@@ -175,38 +175,38 @@
     &.bg-primary,
     &.card-rotate.bg-primary .front,
     &.card-rotate.bg-primary .back{
-      background: linear-gradient(60deg, $purple-400, $purple-700);
+      background: linear-gradient(60deg, lighten($brand-primary, 15%), darken($brand-primary, 10%));
     }
     .card-header-info,
     &.bg-info,
     &.card-rotate.bg-info .front,
     &.card-rotate.bg-info .back{
-      background: linear-gradient(60deg, $cyan-400, $cyan-700);
+      background: linear-gradient(60deg, lighten($brand-info, 15%), darken($brand-info, 10%));
     }
     .card-header-success,
     &.bg-success,
     &.card-rotate.bg-success .front,
     &.card-rotate.bg-success .back{
-      background: linear-gradient(60deg, $green-400, $green-700);
+      background: linear-gradient(60deg, lighten($brand-success, 15%), darken($brand-success, 10%));
     }
     .card-header-warning,
     &.bg-warning,
     &.card-rotate.bg-warning .front,
     &.card-rotate.bg-warning .back{
-      background: linear-gradient(60deg, $orange-400, $orange-700);
+      background: linear-gradient(60deg, lighten($brand-warning, 15%), darken($brand-warning, 10%));
     }
     .card-header-danger,
     &.bg-danger,
     &.card-rotate.bg-danger .front,
     &.card-rotate.bg-danger .back{
-      background: linear-gradient(60deg, $red-400, $red-700);
+      background: linear-gradient(60deg, lighten($brand-danger, 15%), darken($brand-danger, 10%));
     }
 
     .card-header-rose,
     &.bg-rose,
     &.card-rotate.bg-rose .front,
     &.card-rotate.bg-rose .back{
-      background: linear-gradient(60deg, $pink-400, $pink-700);
+      background: linear-gradient(60deg, lighten($brand-rose, 15%), darken($brand-rose, 10%));
     }
 
     .card-header-primary{

@@ -27,6 +27,7 @@ $rose:                 #e83e8c;
 $dark:                 #272B30;
 $light:                #e9ecef;
 $inverse:                $light;
+$accent:               #673AB7;
 
 $brand-primary:              $primary;
 $brand-secondary:            $secondary;
@@ -36,6 +37,28 @@ $brand-warning:              $warning;
 $brand-danger:               $danger;
 $brand-rose:                 $rose;
 $brand-inverse:              $inverse;
+$brand-accent:               $accent;
+
+$theme-colors: ();
+
+$theme-colors: map-merge((
+  "accent":    $accent
+), $theme-colors);
+
+$bmd-label-color-focus:      $brand-accent;
 
 $padding-small-vertical:     5px;
 $padding-zero:               0;
+
+$theme-color-interval:      5%;
+
+$transition-ease-in:        ease-in-out;
+
+$margin-bottom:             0 0 10px 0;
+
+$font-fam:                  'Roboto', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+$font-family-sans-serif:    $font-fam;
+$font-family-serif:         $font-fam;
+
+$table-cell-padding:          0.5rem;
+$table-cell-padding-sm:       0.3rem;

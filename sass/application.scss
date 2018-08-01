@@ -37,9 +37,11 @@
 @import "material-kit/headers";
 @import "material-kit/footers";
 @import "material-kit/sidebar-and-main-panel";
+@import "material-kit/table";
 
 // Cards
 @import 'material-kit/cards';
+@import 'material-kit/card-dashboard';
 @import 'material-kit/cards/card-carousel';
 @import 'material-kit/cards/card-login';
 @import 'material-kit/cards/card-plain';
@@ -47,5 +49,7 @@
 // Core Plugins
 @import 'material-kit/plugins/plugin-datetime-picker';
 @import 'material-kit/plugins/plugin-nouislider';
+@import 'material-kit/plugins/perfect-scrollbar/main';
 
+@import "material-kit/responsive-dashboard";
 @import "material-kit/responsive";
